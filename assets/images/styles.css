@@ -139,7 +139,7 @@ span {
 }
 
 
-@media only screen and (min-width: 400px)  {
+@media only screen and (min-width: 300px)  {
     #divGameRules {
         
         height: auto;
@@ -156,4 +156,5 @@ span {
         font-size: 20px;
         padding: 0 20px;
     }
+
 }
