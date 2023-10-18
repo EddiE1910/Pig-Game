@@ -81,6 +81,14 @@ body {
     padding-top: 40px;
 }
 
+#score h2 {
+    color: white;
+}
+
+#actions h3 {
+    color: aliceblue;
+}
+
 @keyframes mymove {
     50% {text-shadow: 3px 2px black;}
 }
@@ -126,4 +134,26 @@ span {
     font-weight: bold;
     font-style: oblique;
     text-decoration: underline;
+    color: white;
+    text-shadow: 1px black 1px black 1px black 1px black;
+}
+
+
+@media only screen and (min-width: 400px)  {
+    #divGameRules {
+        
+        height: auto;
+        padding: 0 60px 20px;
+    }
+
+    #game {
+        height: 180px;
+    }
+
+    #rollagain, #pass, #roll {
+        width: 100px;
+        height: 100px;
+        font-size: 20px;
+        padding: 0 20px;
+    }
 }
